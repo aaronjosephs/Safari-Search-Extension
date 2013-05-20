@@ -1,0 +1,20 @@
+<script>
+    function search(){
+        safari.application.openBrowserTab();
+    };
+    search = document.getElementById("s");
+    search.onclick = search; 
+</script>
+<form>
+    Search: 
+    <input type=search" id="search">
+    <br>
+    Select Engine:
+    <select id="engine">
+        <option value="google">
+        google
+        </option>
+    </select>
+    <input type="button" id="s"  value="Search">
+</form>
+
