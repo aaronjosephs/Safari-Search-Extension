@@ -1,0 +1,11 @@
+<!DOCTYPE HTML>
+<html>
+    <script>
+        function openPage(url,searchString) {
+            var newTab = safari.application.activeBrowserWindow.openTab();
+            newTab.url = url+searchString;
+        }
+        var searchQuery = "apples";
+        openPage("http://google.com/search?as_q=",searchQuery);
+    </script>
+</html>
