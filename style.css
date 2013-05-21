@@ -1,0 +1,46 @@
+body {
+    color:rgb(100,100,100);
+}
+h4
+{
+    text-align:center;
+}
+div 
+{
+    padding-bottom:10px;
+    margin:0px;
+}
+input 
+{
+    position:absolute;
+    right:0px;
+    border-radius:10px;
+    color:rgb(100,100,100);
+    background:transparent;
+}
+input:focus 
+{
+    outline:none;
+}
+select:focus 
+{
+    outline:none;
+}
+select
+{
+    padding-bottom:10px;
+    background: transparent;
+    border: 0;
+    border-radius: 0;
+    -webkit-appearance: none;
+    position:absolute;
+    right:0px;
+}
+.select-wrapper
+{
+    padding-bottom:0px;
+    height:20px;
+    overflow: hidden;
+    background: url(new_arrow.png); 
+}
+
